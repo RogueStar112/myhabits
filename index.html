@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyHabits</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/fonts.css" />
+    <!-- <script
+      src="https://kit.fontawesome.com/c36ba6cddf.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-montserrat max-w-5xl mx-auto bg-[#333333] text-white">
+    <header class="mt-6">
+      <nav class="flex justify-between" aria-label="desktop-navbar">
+        <a href="index.html">
+          <h1 class="text-2xl text-white">
+            My<span class="font-extrabold text-yellow-400">Habits</span>
+          </h1>
+        </a>
+
+        <ul class="flex gap-4 items-center text-xl">
+          <li><a href="app.html">App</a></li>
+          <li><a href="">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero flex /h-[48rem] md:h-[880px] justify-center">
+        <!-- <div
+          class="relative grow bg-gradient-to-b from-[#333333] via-green-700 to-[#333333] mx-4"
+          id="increase-habits"
+        >
+          <i
+            class="absolute fa-solid fa-arrow-up fa-xl opacity-40 scale-[2.2] right-0 top-0"
+          ></i>
+          <i
+            class="absolute fa-solid fa-arrow-up fa-2xl opacity-40 scale-[2.2] left-0 bottom-0"
+          ></i>
+
+          <div class="text-center font-montserrat-italic font-extrabold">
+            INCREASE...
+          </div>
+
+          <ul class="font-normal text-center">
+            <li>PRODUCTIVITY</li>
+            <li>FITNESS</li>
+            <li>BUDGETING</li>
+            <li>BREAKS</li>
+            <li></li>
+          </ul>
+        </div> -->
+
+        <div class="hero-text-container max-w-xl flex flex-col">
+          <section class="my-auto">
+            <h2 class="text-2xl place-self-center">
+              Develop <span class="text-yellow-400">productive</span> habits
+              that lead to <span class="text-yellow-400">success.</span>
+            </h2>
+            <p class="text-center text-lg place-self-center">
+              MyHabits is an app dedicated towards productivity.<br />Increase
+              or reduce habits that are important to you.
+            </p>
+          </section>
+        </div>
+
+        <!-- <div
+          class="relative grow bg-gradient-to-b from-[#333333] via-red-700 to-[#333333] mx-4"
+          id="decrease-habits"
+        >
+          <i class="fa-solid fa-arrow-down fa-xl opacity-40 scale-[2.2]"></i>
+          <i
+            class="absolute fa-solid fa-arrow-down fa-2xl opacity-40 scale-[2.2] right-0 bottom-0"
+          ></i>
+
+          <div class="text-center font-montserrat-italic font-extrabold">
+            DECREASE...
+          </div>
+
+          <ul class="text-center">
+            <li>ADDICTIONS</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div> -->
+      </section>
+
+      <section id="offer" class="mt-6 text-center">
+        <h2 class="mx-auto font-extrabold text-xl">WHAT WE OFFER</h2>
+
+        <section
+          id="offer-features"
+          class="flex flex-col /[&>*]:mx-auto [&>*]:my-6 /max-w-xl mx-auto"
+          alt-class="flex flex-col"
+        >
+          <section class="flex">
+            <img
+              src="./assets/icons/clipboard.png"
+              class="filter-icon"
+              alt="clipboard"
+            />
+            <p
+              class="grow text-center my-auto bg-gradient-to-r from-transparent via-green-700 to-transparent mx-4"
+            >
+              <span class="text-2xl italic font-extrabold w-full"
+                >Checklist Logging</span
+              ><br />
+              Get tasks done with your own personalized checklists.
+            </p>
+          </section>
+
+          <section class="flex /[&>h3]:hover:flex duration-300">
+            <img
+              src="./assets/icons/folder-management.png"
+              class="filter-icon"
+              alt="file management"
+            />
+            <p
+              class="grow text-center my-auto place-content-center align-items-center bg-gradient-to-r from-transparent via-orange-700 to-transparent mx-4"
+            >
+              <span class="text-2xl italic font-extrabold"
+                >Task Categorization</span
+              ><br />
+              Categorize your tasks, creating a neater way of managing them.
+            </p>
+          </section>
+
+          <section class="flex">
+            <img
+              src="./assets/icons/bar-chart.png"
+              class="filter-icon"
+              alt="bar chart"
+            />
+
+            <p
+              class="grow text-center my-auto bg-gradient-to-r /h-20 from-transparent via-red-700 to-transparent mx-4"
+            >
+              <span class="text-2xl italic font-extrabold"
+                >Fine-Tuned Analysis</span
+              ><br />
+              With enough data, the app will gather trends.
+            </p>
+          </section>
+
+          <section class="flex col-span-3">
+            <img
+              src="./assets/icons/encryption.png"
+              class="filter-icon"
+              alt="bar chart"
+            />
+
+            <p
+              class="grow text-center my-auto bg-gradient-to-r from-transparent via-blue-700 to-transparent mx-4"
+            >
+              <span class="text-2xl italic font-extrabold"
+                >Import & Export Data</span
+              ><br />
+              With a JSON system, you can upload your very own tasks, or use
+              somebody else's setup!
+            </p>
+          </section>
+
+          <section class="flex col-span-3">
+            <img
+              src="./assets/icons/accessibility.png"
+              class="filter-icon"
+              alt="bar chart"
+            />
+
+            <p
+              class="grow text-center my-auto bg-gradient-to-r from-transparent via-yellow-800 to-transparent mx-4"
+            >
+              <span class="text-2xl italic font-extrabold"
+                >Accessibility Features</span
+              ><br />
+              Want custom themes? We got them. Preset tasks? Absolutely.
+              Different font family names? Yes.
+            </p>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
